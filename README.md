@@ -11,7 +11,6 @@ Set up an account with openexchangerates.org and obtain an API key.
 Set the API key in the settings.py file.
 Run the server using the command: python manage.py runserver
 API Endpoints
-/api/token/: This endpoint is used to obtain a token for authentication.
 /api/convert/: This endpoint is used to convert between currencies. It requires the following parameters:
 from_currency: The currency to convert from (USD, EUR, or EGP).
 to_currency: The currency to convert to (USD, EUR, or EGP).
